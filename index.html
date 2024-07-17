@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- G Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Get Quoting</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="quoteWrap">
+        <div class="quoteBox">
+          <h1 class="quote"></h1>
+        </div>
+
+        <div class="quoteImageBox">
+          <img src="" class="movieImage" />
+        </div>
+      </div>
+
+      <div class="quoteInfoBox">
+        <h2 class="quoteSpeaker">Quotin' <span></span></h2>
+        <div class="buttonWrap">
+          <button class="pBtn" tabindex="-1">
+            Previous
+            <span>Backspace</span>
+          </button>
+
+          <button class="fBtn" tabindex="-1">
+            Gimme a Quote
+            <span>Space</span>
+          </button>
+
+          <button class="rBtn" tabindex="-1">
+            Reset
+            <span>Enter</span>
+          </button>
+        </div>
+        <h2 class="movie"></h2>
+      </div>
+
+      <div class="accessoryBox">
+        <p>Play Quote Audio</p>
+        <button class="playBtn actionBtn" tabindex="-1">P</button>
+        <!-- <button class="replayBtn actionBtn" tabindex="-1">R</button> -->
+      </div>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
